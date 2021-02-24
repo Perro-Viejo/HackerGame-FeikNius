@@ -34,6 +34,9 @@
       "GUI_TOOLTIP_MUTE": "Sonido",
       "GUI_TOOLTIP_FULLSCREEN": "Expandir",
       "GUI_TOOLTIP_LANG": "Idioma",
+      "GUI_PASSWORD_TITLE": "Ingrese la contraseña",
+      "GUI_SEND": "Enviar",
+      "GUI_WRONG_PASSWORD": "Contraseña incorrecta",
 
 
 
@@ -684,6 +687,9 @@
       "GUI_TOOLTIP_MUTE": "Sound",
       "GUI_TOOLTIP_FULLSCREEN": "Fullscreen",
       "GUI_TOOLTIP_LANG": "Language",
+      "GUI_PASSWORD_TITLE": "Type password",
+      "GUI_SEND": "Send",
+      "GUI_WRONG_PASSWORD": "Wrong password",
 
 
 
