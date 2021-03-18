@@ -495,7 +495,8 @@
           update_match: _update_match,
           get_match_updated: () => _app.match_updated,
           is_live: () => _app.live,
-          is_mobile: () => device.mobile()
+          is_mobile: () => device.mobile(),
+          is_landscape: () => device.landscape()
         }
       })()
       // }========================================================================

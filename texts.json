@@ -37,6 +37,7 @@
       "GUI_PASSWORD_TITLE": "Ingrese la contraseña",
       "GUI_SEND": "Enviar",
       "GUI_WRONG_PASSWORD": "Contraseña incorrecta",
+      "GUI_NO_REMATCH": "No puedes jugar dos veces en una misma sesión",
 
 
 
@@ -635,6 +636,7 @@
 
 
       "HELP_TITLE": "OBJETIVOS DE APRENDIZAJE",
+      "HELP_MOBILE_ADVICE": "Si estás en un dispositivo móvil, te recomendamos jugar en modo vertical (portrait)",
       "HELP_CLOSE": "Cerrar ayuda",
       "HELP_CONSEQUENCES": "Consecuencias de publicar noticias falsas",
       "HELP_CONSEQUENCE_01": "Hacer caer a tus contactos en engaños, falsificaciones, estafas.",
@@ -699,6 +701,7 @@
       "GUI_PASSWORD_TITLE": "Type password",
       "GUI_SEND": "Send",
       "GUI_WRONG_PASSWORD": "Wrong password",
+      "GUI_NO_REMATCH": "You can't play twice in the same session",
 
 
 
@@ -1297,6 +1300,7 @@
 
 
       "HELP_TITLE": "LEARNING OBJECTIVES",
+      "HELP_MOBILE_ADVICE": "Playing on a mobile device? We recommend playing in portrait mode",
       "HELP_CLOSE": "Help close",
       "HELP_CONSEQUENCES": "Posting fake news Consequences",
       "HELP_CONSEQUENCE_01": "Make your contacts fall for tricks, fakes, scams.",
