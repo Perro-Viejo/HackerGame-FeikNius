@@ -34,6 +34,7 @@ var Preloader = /** @constructor */ function() {
 		if (!file.endsWith('.js')) {
 			xhr.responseType = 'arraybuffer';
 		}
+		if (file.substr(-5) === '.wasm' || file.substr(-4) === '.pck') { file += '.gz'; var resolve_orig = resolve; resolve = function(xhr) { return resolve_orig(xhr.responseURL.substr(-3) === '.gz' ? { response: pako.inflate(xhr.response), responseType: xhr.responseType, responseURL: xhr.responseURL, status: xhr.status, statusText: xhr.statusText } : xhr); }; }
 		['loadstart', 'progress', 'load', 'error', 'abort'].forEach(function(ev) {
 			xhr.addEventListener(ev, onXHREvent.bind(xhr, resolve, reject, file, tracker));
 		});
